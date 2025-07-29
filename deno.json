@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@3d/three": "jsr:@3d/three@^0.166.0",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@3d/three@0.166": "0.166.0",
+    "jsr:@std/assert@1": "1.0.13",
+    "jsr:@std/internal@^1.0.6": "1.0.10"
+  },
+  "jsr": {
+    "@3d/three@0.166.0": {
+      "integrity": "c73f5f736965d3b8d06b66542d1471004b4fd998fd06426245a0a7fea9bdfde9"
+    },
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.10": {
+      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
+    }
+  },
+  "remote": {
+    "https://cdn.jsdelivr.net/npm/three@0.164.0/build/three.module.js": "a97ec6852978949b7941c070b81292b842473a37549222353fa0a70c18d7285a"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@3d/three@0.166",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
